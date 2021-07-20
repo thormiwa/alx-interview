@@ -1,5 +1,7 @@
 def pascal_triangle(n):
    trow = []
+   if n <= 0:
+       return trow
    for x in range(1, n+1):
        row = []
        for a in range(x):
